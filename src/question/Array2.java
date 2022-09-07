@@ -38,14 +38,14 @@ public class Array2 {
 	}
 	
 	public String process(int[] array) {
-		StringBuffer bf = new StringBuffer();
+		StringBuffer sb = new StringBuffer();
 		
 		for(int i = 0; i < 5; i++) {
 			if(array[i] % 3 == 0) {
-				bf.append(array[i] + " ");
+				sb.append(array[i] + " ");
 			}
 		}
-		return bf.toString();
+		return sb.toString();
 	}
 	
 }
